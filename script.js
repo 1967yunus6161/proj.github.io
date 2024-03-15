@@ -66,7 +66,7 @@ yesButton.addEventListener('click', function () {
 
 
     const title = document.querySelector('.title');
-    title.textContent = 'Yaşasınn!';
+    title.textContent = 'Bende öyle düşünmüştüm';
 });
 // Coding By AzadCoder - ig: @azadcoderr
 function generateHearts() {
