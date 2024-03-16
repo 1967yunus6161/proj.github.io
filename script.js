@@ -122,7 +122,7 @@ document.addEventListener('keydown', function (event) {
 
         //  turn back
         setTimeout(() => {
-            title.textContent = 'Çıkalım mı artık?';
+            title.textContent = 'Mal olduğunu kabul et';
         }, 2000);
     }
 }
