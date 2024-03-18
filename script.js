@@ -20,40 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-// const heartColors = ['#ff5e5e', '#ffb6b6', '#ff8484', '#ff9292', '#ffaaaa']; // Renkli kalp renkleri
-// const heartInterval = 30; // Her 10 pikselde bir kalp oluştur
-// const numberOfHearts = 100; // Oluşturulacak kalp sayısı
-
-//  // Evet butonu
-//  const yesButton = document.getElementById('yesButton');
-
-//  yesButton.addEventListener('click', function() {
-//      generateHearts();
-//  });
-
-//  function generateHearts() {
-//      const symbols = ['❤️', '💖', '💗', '💕', '💓']; // 
-//      const heartInterval = 50; //   200ms'de bir oluştur 
-
-//      setInterval(() => {
-//          const symbol = symbols[Math.floor(Math.random() * symbols.length)]; // Rastgele sembol 
-//          createHeart(symbol);
-//      }, heartInterval);
-//  }
-// Coding By AzadCoder - ig: @azadcoderr
-//  function createHeart(symbol) {
-//      const heart = document.createElement('div');
-//      heart.classList.add('heart');
-//      heart.textContent = symbol; // Sembole göre içeriği ayarla
-//      heart.style.left = Math.random() * window.innerWidth + 'px'; //  yatay konum
-//      heart.style.top = Math.random() * window.innerHeight + 'px'; // dikey konum
-//      heart.style.animationName = 'heartAnimation';
-//      heart.style.animationDuration = '.4s'; // Animasyon süresi
-//      document.body.appendChild(heart);
-//  }
-
-
-
 const heartColors = ['#ff5e5e', '#ffb6b6', '#ff8484', '#ff9292', '#ffaaaa']; // Renkli kalp renkleri
 const heartInterval = 15; // Her 10 pikselde bir kalp oluştur
 const numberOfHearts = 800; // Oluşturulacak kalp sayısı
