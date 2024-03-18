@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const heartColors = ['#ff5e5e', '#ffb6b6', '#ff8484', '#ff9292', '#ffaaaa']; // Renkli kalp renkleri
 const heartInterval = 15; // Her 10 pikselde bir kalp oluştur
-const numberOfHearts = 500; // Oluşturulacak kalp sayısı
+const numberOfHearts = 800; // Oluşturulacak kalp sayısı
 
 // Evet butonu
 const yesButton = document.getElementById('yesButton');
@@ -66,11 +66,11 @@ yesButton.addEventListener('click', function () {
 
 
     const title = document.querySelector('.title');
-    title.textContent = 'Bende öyle düşünmüştüm';
+    title.textContent = 'Bende öyle düşünmüştüm😊';
 });
 // Coding By AzadCoder - ig: @azadcoderr
 function generateHearts() {
-    const symbols = ['❤️', '💖', '💗', '💕', '💓'];
+    const symbols = ['❤️', '💖', '💗', '💕','🤡'];
     const heartInterval = 100;
 
     setInterval(() => {
